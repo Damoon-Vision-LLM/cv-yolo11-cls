@@ -1,0 +1,22 @@
+# Ignore training data
+Data/
+# Ignore model outputs, results, checkpoints
+first/
+second/
+third/
+fourth/
+
+
+# Ignore temporary files
+*.checkpoint
+*.pth
+*.pt
+*.safetensors
+
+# Ignore Jupyter notebook autosaves
+.ipynb_checkpoints/
+
+# Ignore large files or temp artifacts
+*.zip
+*.tar
+*.gz
